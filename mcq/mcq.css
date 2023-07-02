@@ -1,0 +1,151 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html , body {
+        height: 100%;
+        background-color: rgb(248, 244, 244);
+
+}
+html{
+    scrollbar-width: thin;
+    scrollbar-color: red;
+}
+.navbars {
+    width:250px;
+    position: absolute;
+    top: 50px;
+    bottom:0;
+    left: 0;
+    background-color:black ;
+    
+    box-shadow: 50px;
+    padding: 10px;
+    z-index: 100;
+}
+.navbars ul{
+    position: relative;
+    list-style-type: none;
+}
+.navbars ul li a{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: dotted;
+    color: rgb(248, 245, 250);
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    z-index: 100;
+}
+.navbars ul li a:hover{
+    background-color: white;
+    color:green ;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    left:230px;
+    width:200px;
+    top:0;
+    
+    background-color:black;
+    border-radius: 5px;
+}
+.navbars ul li:hover .dropdown
+{
+    display: block;
+    position: absolute;
+    
+}
+.dropdown1{
+    display: none;
+    position: absolute;
+    left:230px;
+    width:200px;
+    top:0;
+    
+    background-color:black;
+    border-radius: 5px;
+}
+.navbars ul li:hover .dropdown1
+{
+    display: block;
+    position: absolute;
+    
+}
+
+.scrollbg
+{
+    position: absolute;
+    background-color: rgb(129, 215, 215);
+    width: 950px;
+    height: 550px;
+    top: 80px;
+    left:300px;
+    
+    
+    
+    
+}
+.scrolldiv
+{
+    position: absolute;
+    width: 950px;
+    background-color:rgb(65, 60, 60);
+    height: 550px;
+    
+   
+    
+    
+}
+.scrollobj
+{
+    color: rgb(247, 255, 132);
+    background-color: rgba(34, 13, 13, 0.38);
+}
+.scrollobj img{
+    width: 950px;
+}
+.scrollbg .scrolldiv .scrollobj p{
+    color: rgb(249, 250, 249);
+    font-size: 18px;
+    padding: 10px;
+}
+.scrollbg .scrolldiv .scrollobj a{
+    color: azure;
+}
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-track
+{
+    background-color: rgb(60, 58, 58);
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: rgb(22, 237, 104);
+    border-radius: 50px;
+}
+.scrollbg .scrolldiv .scrollobj h2
+{
+        color: rgb(62, 178, 204);
+        align-items: flex-start;
+        
+}
+.scrollbg .scrolldiv .scrollobj h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.contents{
+    background-color: rgb(189, 52, 52);
+   margin-left: 300px;
+
+ 
+ 
+}
